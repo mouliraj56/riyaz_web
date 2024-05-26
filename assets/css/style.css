@@ -267,18 +267,18 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #100f0f;
+  color: #ebebeb;
 }
 
 #hero p {
-  color: #141212;
+  color: #ebebeb;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #1a1616;
+  color: #ebebeb;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -430,7 +430,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -464,6 +464,58 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+
+.skills-content {
+  margin-top: 20px;
+}
+
+.skills-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-content li {
+  margin-bottom: 10px;
+}
+
+.skills-content strong {
+  font-weight: bold;
+}
+
+.skills-content h3 {
+  margin-top: 20px;
+}
+
+.skills-content h3,
+.skills-content ul {
+  margin-left: 20px;
+}
+
+/* Add some interesting design */
+.skills-content ul {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.skills-content li {
+  padding: 10px;
+  border-left: 4px solid #149ddd;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.skills-content h3 {
+  color: #149ddd;
+}
+
+.skills-content strong {
+  color: #149ddd;
+}
+
+.skills-content ul:last-child {
+  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
